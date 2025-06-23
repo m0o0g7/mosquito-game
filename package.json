@@ -1,0 +1,21 @@
+{
+  "name": "mosquito-game",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
+  },
+  "homepage": "https://<your-github-username>.github.io/<your-repo-name>",
+  "devDependencies": {
+    "typescript": "~5.8.3",
+    "vite": "^6.3.5",
+    "gh-pages": "^5.0.0"
+  },
+  "dependencies": {
+    "phaser": "^3.90.0"
+  }
+}
